@@ -1,0 +1,7 @@
+1. PRODUCT GALLERY
+    insert into productgallery
+    (created_by, is_deleted, is_inactive, is_thumbnail_image, modified_by,
+     productid, created_on, modified_on, image_path, product_gallery_id)
+    Values (2, 0, 0, 0, 2, 1, '2023-10-30 00:12:51.027901', '2023-10-30 00:12:51.027901', "path2", 100)
+
+2.

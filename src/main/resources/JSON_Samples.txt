@@ -1,0 +1,51 @@
+1. PRODUCT REQUEST
+   {
+        "productCode": "P101",
+        "productDisplayName": "Yacht1",
+        "productCategory": "SAILING",
+        "productType": "YACHT",
+        "productDescription": "This is the first yacht",
+        "productGalleryRequest":
+            {
+            	"isThumbnailImage": 0,
+                "imagePath": "path1"
+            }
+    }
+
+2. PRODUCTGALLERY REQUEST
+    {
+        "productid": 1,
+        "isThumbnailImage": 0,
+        "imagePath": "path1"
+    }
+
+3. BOOKING REQUEST
+    {
+          "productid": "1",
+          "pricingid": "1",
+          "bookingStartDateTime": "2001-01-01T00:00:00.000000",
+          "bookingEndDateTime": "2001-01-01T00:00:00.000000",
+          "bookingUnits": "1.0",
+          "bookingTotalPrice": "1.00",
+          "bookingCurrency": "DUMMY"
+    }
+
+4. PRICING REQUEST
+   {
+     "productId": "1",
+     "pricingCategory": "TIMEBLOCKS",
+     "pricingType": "RETAIL",
+     "pricingUnit": "HOURLY",
+     "percentDiscount": "0.11",
+     "pricePerUnit": "21.01"
+   }
+
+5. USER REQUEST
+
+{
+    "firstname": "Shree",
+    "lastname": "Sinha",
+    "email": "shree@mail.com",
+    "password": "password",
+    "role": "USER"
+}
